@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DARTEX — Спецодежда и материалы</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; color: #333; }
+    header { background: #222; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { font-size: 18px; color: #ccc; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #222; border-bottom: 2px solid #007acc; display: inline-block; padding-bottom: 5px; }
+    ul { line-height: 1.8; }
+    footer { background: #222; color: #fff; text-align: center; padding: 20px; }
+    .catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .item { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    .item h3 { margin-top: 0; }
+a { color: #007acc; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DARTEX.KZ</h1>
+  <p>Ткани, фурнитура для спецодежды и одноразовые комбинезоны</p>
+</header>
+
+<section>
+  <h2>О нас</h2>
+  <p>
+    Мы — поставщики тканей и швейной фурнитуры для производства спецодежды. Также предлагаем готовую продукцию:
+    комбинезоны, спецобувь, средства индивидуальной защиты и многое другое.
+  </p>
+</section>
+
+<section>
+  <h2>Каталог</h2>
+  <div class="catalog">
+    <div class="item">
+      <h3>Ткани для спецодежды</h3>
+      <p>Гретта, саржа, хб, смесовые материалы</p>
+    </div>
+    <div class="item">
+      <h3>Швейная фурнитура</h3>
+      <p>Молнии, кнопки, липучки, нити, резинки и др.</p>
+    </div>
+    <div class="item">
+      <h3>Одноразовые комбинезоны</h3>
+      <p>Защитные, влагостойкие, разных размеров</p>
+    </div>
+    <div class="item">
+      <h3>Спецобувь</h3>
+      <p>Сапоги, ботинки, антискользящие, с усиленным носком</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Контакты</h2>
+  <p>Email: <a href="mailto:info@dartex.kz">info@dartex.kz</a></p>
+  <p>Телефон: +7 707 333 45 83 </p>
+  <p>Адрес: г. Алматы, ул. Ангарская 133А, 10</p>
+</section>
+
+<footer>
+  &copy; 2025 DARTEX.KZ — Все права защищены
+</footer>
+
+</body>
+</html>
+```
